@@ -1,4 +1,4 @@
-# openInventory - Server Software
+**Server-Side software**
 
 A reliable open-source solution for inventory management.
 This repository contains the server-side implementation of an Inventory Management System (IMS).

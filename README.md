@@ -27,5 +27,8 @@ To build and run the server, ensure that you have the following installed:
 
 ## Installation
 
-**Run if on CentOS based distro :** `centos_install.sh`
-**Run if on Debian based distro :** `debian_install.sh`
+I highly recommend using Alma Linux OS 9 since the project was widely tested on it.
+
+**Run if on CentOS based distro :** `centos_install.sh`.
+
+**Run if on Debian based distro :** `debian_install.sh` (WIP)

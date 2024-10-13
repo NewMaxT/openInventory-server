@@ -14,4 +14,8 @@ echo
 
 # Install required packages
 echo "Installing required packages (Log in log/requirements.log)"
-sudo dnf -y install openssl libssl-dev libiodbc2 libiodbc2-dev > log/requirements.log
+sudo dnf -y install gcc g++ make cmake3 openssl-devel mysql-devel postgresql-devel  > log/requirements.log
+
+# Building the project
+echo "Building the project (Log in log/build.log)"
+cmake -B build/ -S openInventory-server/ > log/build.log

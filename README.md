@@ -7,9 +7,9 @@ The server is built using C++ and provides RESTful APIs for managing inventory d
 ## Tech Stack
 
 - **Programming Language :** C++
-- **Networking :** Poco
+- **Networking :** Poco Framework
 - **Database :** PostgreSQL
-- **Build System :** Cmake
+- **Build System :** CMake
 - **Version Control :** GitHub
 
 ## Features
@@ -27,4 +27,5 @@ To build and run the server, ensure that you have the following installed:
 
 ## Installation
 
-1. **TBD**
+**Run if on CentOS based distro :** `centos_install.sh`
+**Run if on Debian based distro :** `debian_install.sh`

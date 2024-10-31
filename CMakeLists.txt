@@ -8,8 +8,10 @@ if(NOT TARGET Poco::Net)
 endif()
 
 add_executable(openInventory src/main.cpp
-        include/http_server.cpp
-        include/http_server.h)
+        src/webserver.cpp
+        include/webserver.hpp
+        src/api.cpp
+        include/api.hpp)
 
 target_link_libraries(openInventory PUBLIC Poco::Net Poco::Util Poco::JSON)
 target_include_directories(openInventory PUBLIC include)

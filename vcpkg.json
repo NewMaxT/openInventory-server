@@ -1,0 +1,32 @@
+{
+  "name" : "openinventory",
+  "version" : "1.0.0",
+  "dependencies" : [ {
+    "name" : "poco",
+    "features" : [ "netssl", "postgresql" ]
+  }, {
+    "name" : "expat"
+  }, {
+    "name" : "pcre2",
+    "features" : [ "jit", "platform-default-features" ]
+  }, {
+    "name" : "vcpkg-cmake"
+  }, {
+    "name" : "vcpkg-cmake-config"
+  }, {
+    "name" : "vcpkg-cmake-get-vars"
+  }, {
+    "name" : "zlib"
+  }, {
+    "name" : "libpqxx"
+  }, {
+    "name" : "libpq",
+    "features" : [ "openssl", "lz4", "zlib" ]
+  }, {
+    "name" : "lz4"
+  }, {
+    "name" : "openssl"
+  }, {
+    "name" : "gtest"
+  } ]
+}
